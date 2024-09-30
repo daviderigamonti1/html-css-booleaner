@@ -19,7 +19,14 @@ section {
     width: 1010;
 }
 
-h2 {font-size: xx-large;}
+h1 {
+    padding-top: 20px;
+}
+
+h2  {
+  font-size: xx-large;
+  height: 50px;
+}
 
 .small {
     font-size: small;
@@ -36,8 +43,8 @@ h2 {font-size: xx-large;}
 .table1 {
     background-color: rgb(6, 98, 204);
     color: white;
-    width: 100%;
 }
+
 .table2 {
     background-color: rgb(157, 249, 249);
 }
@@ -48,4 +55,16 @@ h2 {font-size: xx-large;}
 
 .grey-font {
     color: rgb(119, 115, 115);
+}
+
+.table4 {
+    width: 300px;
+}
+
+.table5 {
+    width: 500px;
+}
+
+ul {
+    padding: 15px;
 }
