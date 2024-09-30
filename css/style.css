@@ -2,18 +2,50 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    width: 1100px;
   }
+
 header{
-    height: 200px;
-    background-image: url(img/pattern.png);
+    margin: 0;
+    width: 1100px;
+    height: 100px;
+    background-color: rgb(0, 140, 255);
+    background-image: url(../img/pattern.png);
+    background-size: contain;
     color: white;
 }
-.blue font {
-    color: aqua;
+
+section {
+    width: 1010;
 }
+
+h2 {font-size: xx-large;}
+
+.small {
+    font-size: small;
+}
+
+.blue-font {
+    color: rgb(0, 179, 255);
+}
+
 .highlight {
     background-color: yellow;
+}   
+
+.table1 {
+    background-color: rgb(6, 98, 204);
+    color: white;
+    width: 100%;
 }
-.table-background {
-    background-color: aqua;
+.table2 {
+    background-color: rgb(157, 249, 249);
+}
+
+.table3 {
+    background-color: white;
+}
+
+.grey-font {
+    color: rgb(119, 115, 115);
 }
