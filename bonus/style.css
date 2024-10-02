@@ -1,7 +1,26 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
 body {
     font-family: "Roboto", system-ui;
     font-weight: 400;
     font-style: normal;
+  }
+
+ul {
+    margin-left: 1em;
+}
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .mt-20 {
+    margin-top: 20px;
   }
   .roboto-bold {
     font-family: "Roboto", sans-serif;
@@ -15,20 +34,16 @@ header{
     background-size: 30%;
     color: white;
     margin: 0;
-    width: 1520px;
+    width: 1100px;
     height: 120px;
 }
 
 
 h1 {
     font-size: 3em;
-    padding-bottom: 0;
-    margin-bottom: 0;
 }
 
-.images {
-    padding-top: 30px;
-}
+
 .text-small {
     font-size: 0.8em;
 }
@@ -52,10 +67,11 @@ h1 {
 .odd {
     background-color: rgb(157, 249, 249);
 }
-
+#logo {
+    padding-top: 50px;
+}
 #logo img {
     width: 200px;
-    padding-top: 60px;
 }
 
 
@@ -72,20 +88,24 @@ table {
     border-collapse: collapse;
 }
 
-.inner-footer div {
+table td {
+    padding: 5px;
+}
+
+footer .container div {
     color: white;
     width: 300px;
     height: 200px;
-    background-image: url(../img/graph.jpg);
+    background-image: url('../img/graph.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 5px;
 }
 
 footer h4 {
-    padding: 10px;
-    font-size: em;
+    font-size: 2em;
 }
 
 #monitor {
-    background-image: url(../img/monitor.jpg);
+    background-image: url('../img/monitor.jpg');
 }
